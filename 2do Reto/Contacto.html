@@ -8,29 +8,81 @@
 
 <body>
     <header>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">INICIO</a>
-            </li>
-            <li>
-                <a href="Nosotros.html">NOSOTROS</a>
-            </li>
-            <li>
-                <a href="Tienda.html">TIENDA</a>
-            </li>
-            <li>
-                <a href="Blog.html">BLOG</a>
-            </li>
-            <li>
-                <a href="#GALERIA">GALERIA</a>
-            </li>
-            <li>
-                <a href="Contacto.html">Contacto</a>
-            </li>
-        </ul>
+        <h1>Tienda <span>Muebles</span></h1>
+        <nav>
+            <a href="index.html">INICIO</a>
+            <a href="Nosotros.html">NOSOTROS</a>
+            <a href="Tienda.html">TIENDA</a>
+            <a href="Blog.html">BLOG</a>
+            <a href="Galeria.html">GALERIA</a>
+            <a href="Contacto.html">CONTACTO</a>
         </nav>
     </header>
+    
+    <main>
+    <h2>Contacto</h2>
+        <form>
+            <fieldset>
+                <legend>TUS DATOS</legend>
+                <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Tu Nombre">
+                </div>
+                <br>
+                <div>
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" placeholder="Tu Asunto">
+                </div>                
+                <br>
+                <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Tu Email">
+                </div>
+                <br>
+                <div>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" placeholder="Tu Teléfono">
+                </div>
+                <br>
+                <div>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" rows="5" placeholder="Tu Mensaje"></textarea>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>PAÍS</legend>
+                <label for="país">País:</label>
+                <select id="país">
+                    <option>Perú</option>
+                    <option>Chile</option>
+                    <option>Colombia</option>
+                    <option>México</option>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>INFORMACIÓN EXTRA</legend>
+                <div>
+                <label for="cliente">Cliente:</label>
+                <input type="checkbox" id="cliente">
+                </div>
+                <br>
+                <div>
+                <label for="proveedor">Proveedor:</label>
+                <input type="checkbox" id="proveedor">
+                </div>
+                <br>
+                <div>
+                <label for="mensaje">Categoría de Interés:</label>
+                <textarea id="mensaje" rows="5" placeholder="Tu Mensaje"></textarea>
+                </div>
+            </fieldset>
+            <br>
+            <button type="submit">Enviar Formulario</button>
+        </form>
+    </main>
+
     <footer>
         <div>
             <h3>Categorías</h3>
